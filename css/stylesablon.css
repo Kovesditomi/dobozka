@@ -1,0 +1,95 @@
+.bigbox{
+    width: 500px;
+    height: 800px;
+    margin: 20px auto 20px auto;
+    border-radius: 20px;
+    background-color:rgba(255,255,255,.5);
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.wrapper{
+    display: flex;
+  
+}
+ body{
+     background-image: linear-gradient(red,orange,yellow,green,blue,purple);
+     background-attachment: fixed;
+ }
+ .shape{
+     border-radius: 3px;
+     height: 100px;
+     width: 100px;
+     box-shadow: 5px 5px 5px black;
+     margin: 30px;
+ }
+ .box-container{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+ }
+ #element-one{
+     background-color: red;
+ }
+ #element-two{
+     background-color: orange;
+
+ }
+ #element-three{
+     background-color: yellow;
+ }
+ #element-four{
+     background-color: green;
+ }
+ #element-five{
+     background-color: blue;
+ }
+ #element-six{
+     background-color: purple;
+ }
+ #element-seven{
+     background-color: aquamarine;
+ }
+ #element-eight{
+     background-color: cyan;
+ }
+ #element-nine{
+     background-color: darksalmon;
+ }
+#element-tenth{
+  background-color: blueviolet;
+
+}
+#element-eleventh{
+background-color: coral;
+}
+ .text{
+     display: table;
+     margin: auto;
+     font-size: 50px;
+     line-height: 100px;
+ }
+ .blur{
+     filter: blur(5px);
+
+ }
+.hidden{
+display: none;
+
+}
+.parent-table{
+    display: table;
+    text-align: center;
+
+}
+.child-table{
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+ 
